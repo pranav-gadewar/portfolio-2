@@ -8,7 +8,12 @@ import Footer from "@/components/Footer";
 import Preloader from "@/components/Preloader";
 import { AnimatePresence } from "framer-motion";
 
-const inter = Inter({ subsets: ["latin"] });
+// ✅ Use Google-hosted Inter, with fallback
+const inter = Inter({
+  subsets: ["latin"],
+  display: "swap", // prevents layout shift
+  fallback: ["system-ui", "sans-serif"], // ensures build won’t fail even if fetch fails
+});
 
 export default function RootLayout({
   children,
@@ -18,12 +23,9 @@ export default function RootLayout({
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    // We have 2 sentences at 2s each, so we need at least 4s total.
-    // Let's use 4.5s to be safe.
     const timer = setTimeout(() => {
       setIsLoading(false);
-    }, 4500); // 4500ms = 4.5 seconds
-
+    }, 4500); // 4.5 seconds
     return () => clearTimeout(timer);
   }, []);
 

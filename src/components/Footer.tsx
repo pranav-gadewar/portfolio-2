@@ -38,7 +38,7 @@ export default function Footer() {
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto text-lg">
             Feel free to reach out to me for collaborations, project
-            discussions, or just to say hello. I'm always open to exploring new
+            discussions, or just to say hello. I&apos;m always open to exploring new
             opportunities and connecting with like-minded people.
           </p>
         </div>

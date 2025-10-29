@@ -2,7 +2,7 @@
 
 "use client";
 
-import { GraduationCap } from "lucide-react";
+// import { GraduationCap } from "lucide-react";
 import { motion, Variants } from "framer-motion";
 
 // Array to hold your education data for easy management
