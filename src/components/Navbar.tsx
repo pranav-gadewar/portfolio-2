@@ -91,7 +91,7 @@ export default function Navbar() {
             </div>
           ))}
           <a
-            href="/Pranav_Gadewar__RESUME_.pdf"
+            href="/Pranav_Gadewar__RESUME.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="px-4 py-2 rounded-lg border-2 border-orange-500 text-orange-500 font-semibold hover:bg-orange-500 hover:text-white transition-all duration-300 transform hover:scale-105"
@@ -160,7 +160,7 @@ export default function Navbar() {
                 </Link>
               ))}
               <a
-                href="/resume.pdf"
+                href="/Pranav_Gadewar__RESUME.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full text-center mt-4 px-5 py-3 rounded-lg border-2 border-orange-500 text-orange-500 font-semibold hover:bg-orange-500 hover:text-white transition-all duration-300"

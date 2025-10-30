@@ -69,7 +69,7 @@ export default function Hero() {
             variants={textItemVariants}
           >
             <Link
-              href="/Pranav_Gadewar__RESUME_.pdf" target="_blank"
+              href="/Pranav_Gadewar__RESUME.pdf" target="_blank"
               className="px-6 py-3 bg-orange-500 text-white font-semibold rounded-lg shadow-lg hover:bg-orange-600 transition duration-200"
             >
               Download Resume
